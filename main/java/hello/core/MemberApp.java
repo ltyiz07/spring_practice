@@ -8,8 +8,8 @@ public class MemberApp {
 
 	public static void main(String[] args) {
 		AppConfig appConfig = new AppConfig();
-		MemberService memberService=appConfig.memberService();
-		Member member = new Member(1L, "Michael Jacksion", Grade.NORMAL);
+		MemberService memberService = appConfig.memberService();
+		Member member = new Member(1L, "Michael Jackson", Grade.NORMAL);
 
 	    memberService.join(member);
 	    

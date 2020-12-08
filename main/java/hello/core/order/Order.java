@@ -36,8 +36,11 @@ public class Order {
 
 	@Override
 	public String toString() {
-		return "Order [memberId=" + memberId + ", itemName=" + 
-				itemName + ", itemPrice=" + itemPrice
-				+ ", discountPrice=" + discountPrice + "]";
+		return "Order{" +
+				"memberId=" + memberId +
+				", itemName='" + itemName + '\'' +
+				", itemPrice=" + itemPrice +
+				", discountPrice=" + discountPrice +
+				'}';
 	}
 }
